@@ -1,0 +1,130 @@
+*{
+	box-sizing: border-box;
+}
+body{
+  background-color: #C0C0C0;
+	margin: 0;
+	padding: 0;
+}
+h1 {margin-top: 40px;
+	margin-bottom: 90px;
+  	color: black;
+  	text-align: center;
+  	font-size: 40px;
+  	font-size: bold;
+  	text-transform: uppercase;
+  }
+  .box
+  {
+    border: 1px solid black;
+    width: 80px;
+    height:30px;
+    background-color:#808080;
+    color: black;
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    top: 0px;
+    text-align:center; 
+  }
+  
+  div {
+  width: 95%;
+  height: 250px;
+  margin-right:auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  text-transform: capitalize;
+
+}
+p{
+  margin-top: 40px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+
+}
+  .row{
+  	width: 98%;
+    height: 100%;
+  }
+
+@media (min-width: 992px) {
+  .col-lg-1 { background-color: #191970;
+      width: 30%;
+      float: left;
+      margin-left: 43px;
+      margin-right: 5px;
+      border: 1px solid black;
+    
+  }
+  .col-lg-2{
+    margin-left: 5px;
+    background-color: #CD5C5C;
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+
+
+  }
+  .col-lg-3{
+    margin-left: 5px;
+    background-color: #3CB371;
+    width: 30%;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid black;
+
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1 { background-color:  #191970;
+      width: 50%;
+      float: left;
+      border: 1px solid black;
+  }
+  .col-md-2{
+    background-color:#CD5C5C;
+    width: 50%;
+    float: right;
+    border: 1px solid black;
+
+  }
+  .col-md-3{margin-top: 10px;
+    background-color: #3CB371 ;
+    margin-left: auto;
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-1 { background-color: #191970;
+      height:33.33%;
+      float: left;
+      width: 100%;
+      border: 1px solid black;
+
+  }
+  .col-sm-2{
+    margin-top: 20px;
+    background-color: #CD5C5C;
+    height: 33.33%;
+    float:left;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .col-sm-3{
+    margin-top: 20px;
+    background-color: #3CB371;
+    height: 33.33%;
+    float: left;
+    width: 100%;
+    border: 1px solid black;
+
+  }
+}
